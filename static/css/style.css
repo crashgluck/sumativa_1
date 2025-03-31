@@ -18,3 +18,9 @@ footer {
 .nav-dropdown {
     background-color: #001845;
 }
+
+.login-body {
+    background-image: url('https://www.shell.cl/motorists/promotions-and-campaigns/_jcr_content/root/metadata.shellimg.png/1721805650718/shell-station-trees.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
