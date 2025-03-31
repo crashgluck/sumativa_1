@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<div class="mx-auto py-1 my-5">   
+    <div>
+        <div class="card w-75 mx-auto" >
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://www.lubricentrojm.cl/wp-content/uploads/2018/10/157901.jpg" class="img-fluid rounded-start">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Liquido de Frenos</h5>
+                  <p class="card-text">
+                    Liquido de Frenos universal, compatible con todos los vehículos que requieren especificación DOT3.
+                  </p>
+                  <p class="card-text text-muted">
+                    Precio: <strong>$5.000</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</div>
+
+<div class="mx-auto py-1 my-5">   
+    <div>
+        <div class="card w-75 mx-auto" >
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://img.freepik.com/fotos-premium/seccion-media-hombre-vertiendo-liquido-refrigeracion-coche_1048944-4199171.jpg?w=1380">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Liquido Refrigerante Cooland</h5>
+                  <p class="card-text">
+                    Liquido refrigerante de alta calidad, resiste temperaturas dessde -10°c hasta 110°c, compatible con todo tipo de vehículos.
+                  </p>
+                  <p class="card-text text-muted">
+                    Precio: <strong>$6.990</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</div>
+</html>
