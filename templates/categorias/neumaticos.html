@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
         
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../../static/css/style.css">
 
     
@@ -61,6 +61,50 @@
           </nav>
     </div>
 
+    
+    
+<!-- BOTÓN DEL CARRITO -->
+<div class="dropdown-carrito nav-dropdown">
+  <button class="btn btn-primary position-fixed bottom-0 end-0 m-3 shadow-lg dropdown-toggle" 
+          type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-cart"></i>
+             
+  </button>
+
+  <div class="dropdown-menu carrito p-3" style="width: 300px; max-height: 60vh; overflow-y: auto;">
+      <h3 class="text-center">Carrito</h3>
+
+      <!-- Producto 1 -->
+      <div class="d-flex align-items-center border rounded p-2 mb-2">
+          <img class="img-fluid me-2" src="https://www.firestone.cl/content/dam/consumer/fst/shared/tires/firehawk-900-/tilted.jpg" 
+               alt="Hawk - 900" style="width: 50px;">
+          <div>
+              <p class="mb-0">Hawk - 900</p>
+              <small>Cantidad: 2</small><br>
+              <small>Precio: $45.000</small>
+          </div>
+      </div>
+
+      <!-- Producto 2 -->
+      <div class="d-flex align-items-center border rounded p-2 mb-2">
+          <img class="img-fluid me-2" src="https://http2.mlstatic.com/D_NQ_NP_782590-MLM43494000630_092020-O.webp" 
+               alt="Liqui Moly Molygen 5w30" style="width: 50px;">
+          <div>
+              <p class="mb-0">Liqui Moly Molygen 5w30</p>
+              <small>Cantidad: 1</small><br>
+              <small>Precio: $50.000</small>
+          </div>
+      </div>
+
+      <h4 class="text-center mt-3">Total: $140.000</h4>
+      <div class="text-center">
+          <a class="btn btn-success w-100" href="#">Pagar</a>
+      </div>
+  </div>
+</div>
+
+
+    
     <section>
         <div>
             <h1 class="text-center my-5">
