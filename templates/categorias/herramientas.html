@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
         
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../../static/css/style.css">
 
     
@@ -20,59 +20,114 @@
 
   <!-- NAVBAR -->
     <div class="mb-3">
-      <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link text-light" aria-current="page" href="../../index.html">Inicio</a>
-          </li>
-        
-          <li>
-            <div class="dropdown nav-dropdown">
-                <button class="btn dropdown-toggle text-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Categorias
-                </button>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../categorias/accesorios.html">Accesorios</a></li>
-                    <li><a class="dropdown-item" href="../categorias/baterias.html">Baterías</a></li>
-                    <li><a class="dropdown-item" href="../categorias/electricidad-iluminacion.html">Iluminación y electricidad</a></li>
-                    <li><a class="dropdown-item" href="../categorias/lubricantes.html">Lubricantes</a></li>
-                    <li><a class="dropdown-item" href="../categorias/neumaticos.html">Neumaticos</a></li>
-                    <li><a class="dropdown-item" href="../categorias/herramientas.html">Herramientas</a></li>
-                </ul>
+      <nav class="navbar navbar-expand-lg text-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <div style="max-width: 3rem;">
+                <img class="img-fluid" src="../../static/images/logo/Shell_logo.svg.png" alt="">
             </div>
-          </li>
-          
-        </ul>
-        <form class="d-flex" role="search">
-          
-          <button class="btn btn-outline-success" type="submit">Login</button>
-        </form>
-      </div>
+          </a>
+          <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-light" aria-current="page" href="../../index.html">Inicio</a>
+              </li>
+            
+              <li>
+                <div class="dropdown nav-dropdown">
+                    <button class="btn dropdown-toggle text-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Categorias
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../categorias/accesorios.html">Accesorios</a></li>
+                        <li><a class="dropdown-item" href="../categorias/baterias.html">Baterías</a></li>
+                        <li><a class="dropdown-item" href="../categorias/electricidad-iluminacion.html">Iluminación y electricidad</a></li>
+                        <li><a class="dropdown-item" href="../categorias/lubricantes.html">Lubricantes</a></li>
+                        <li><a class="dropdown-item" href="../categorias/neumaticos.html">Neumaticos</a></li>
+                        <li><a class="dropdown-item" href="../categorias/herramientas.html">Herramientas</a></li>
+                    </ul>
+                </div>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              
+              <a href="../cuentas/login.html" class="btn btn-success text-light btn-outline-success" type="submit">Login</a>
+            </form>
+          </div>
+        </div>
+      </nav>
     </div>
 
-    <section>
-        <div>
-            <h1 class="text-center my-5">
-                Accesorios
-            </h1>
-        </div>
+    
+    
+<!-- BOTÓN DEL CARRITO -->
+<div class="dropdown-carrito nav-dropdown">
+  <button class="btn btn-primary position-fixed bottom-0 end-0 m-3 shadow-lg dropdown-toggle" 
+          type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-cart"></i>
+             
+  </button>
 
+  <div class="dropdown-menu carrito p-3" style="width: 300px; max-height: 60vh; overflow-y: auto;">
+      <h3 class="text-center">Carrito</h3>
+
+      <!-- Producto 1 -->
+      <div class="d-flex align-items-center border rounded p-2 mb-2">
+          <img class="img-fluid me-2" src="https://www.firestone.cl/content/dam/consumer/fst/shared/tires/firehawk-900-/tilted.jpg" 
+               alt="Hawk - 900" style="width: 50px;">
+          <div>
+              <p class="mb-0">Hawk - 900</p>
+              <small>Cantidad: 2</small><br>
+              <small>Precio: $45.000</small>
+          </div>
+      </div>
+
+      <!-- Producto 2 -->
+      <div class="d-flex align-items-center border rounded p-2 mb-2">
+          <img class="img-fluid me-2" src="https://http2.mlstatic.com/D_NQ_NP_782590-MLM43494000630_092020-O.webp" 
+               alt="Liqui Moly Molygen 5w30" style="width: 50px;">
+          <div>
+              <p class="mb-0">Liqui Moly Molygen 5w30</p>
+              <small>Cantidad: 1</small><br>
+              <small>Precio: $50.000</small>
+          </div>
+      </div>
+
+      <h4 class="text-center mt-3">Total: $140.000</h4>
+      <div class="text-center">
+          <a class="btn btn-success w-100" href="#">Pagar</a>
+      </div>
+  </div>
+</div>
+
+
+    
+<section>
+    <div>
+        <h1 class="text-center my-5">
+            Accesorios
+        </h1>
+    </div>
     <!-- SECCION PRIMER PRODUCTO -->
         <div class="mx-auto py-1 my-5">   
             <div>
                 <div class="card w-75 mx-auto" >
                     <div class="row g-0">
                       <div class="col-md-4">
-                        <img src="https://img.freepik.com/fotos-premium/primer-plano-limpiador-parabrisas-sobre-fondo-blanco_1048944-26586473.jpg?ga=GA1.1.1015806810.1741797760&semt=ais_hybrid" class="img-fluid rounded-start">
+                        <img src="https://img.freepik.com/fotos-premium/llave-globo-aislada-sobre-fondo-blanco_153912-24673.jpg?ga=GA1.1.1767679964.1742046102&semt=ais_hybrid" class="img-fluid rounded-start">
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
-                          <h5 class="card-title">Plumillas Delanteras</h5>
+                          <h5 class="card-title">Llave de cruz</h5>
                           <p class="card-text">
-                            Compatibles con la mayoria de vehiculos desde año 2005.
+                            Ajustable en cualquier neumatico.
                           </p>
                           <p class="card-text text-muted">
-                            Precio: <strong>$25000</strong>
+                            Precio: <strong>$19.990</strong>
                           </p>
                         </div>
                       </div>
@@ -88,16 +143,16 @@
                 <div class="card w-75 mx-auto" >
                     <div class="row g-0">
                       <div class="col-md-4">
-                        <img src="https://img.freepik.com/fotos-premium/primer-plano-limpiador-parabrisas-sobre-fondo-blanco_1048944-26586473.jpg?ga=GA1.1.1015806810.1741797760&semt=ais_hybrid" class="img-fluid rounded-start">
+                        <img src="https://img.freepik.com/fotos-premium/vista-angulo-alto-coche-vintage-carretera_1048944-3785102.jpg?ga=GA1.1.1767679964.1742046102&semt=ais_hybrid" class="img-fluid rounded-start">
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
-                          <h5 class="card-title">Plumillas Delanteras</h5>
+                          <h5 class="card-title">Gato hidraulico</h5>
                           <p class="card-text">
-                            Compatibles con la mayoria de vehiculos desde año 2005.
+                            Soporta hasta 980 kilos.
                           </p>
                           <p class="card-text text-muted">
-                            Precio: <strong>$25000</strong>
+                            Precio: <strong>$225.000</strong>
                           </p>
                         </div>
                       </div>
@@ -111,16 +166,16 @@
                 <div class="card w-75 mx-auto" >
                     <div class="row g-0">
                       <div class="col-md-4">
-                        <img src="https://img.freepik.com/fotos-premium/primer-plano-limpiador-parabrisas-sobre-fondo-blanco_1048944-26586473.jpg?ga=GA1.1.1015806810.1741797760&semt=ais_hybrid" class="img-fluid rounded-start">
+                        <img src="https://img.freepik.com/foto-gratis/sirva-tecnico-electrico-que-trabaja-centralita-fusibles_169016-24410.jpg?ga=GA1.1.1767679964.1742046102&semt=ais_hybrid" class="img-fluid rounded-start">
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
-                          <h5 class="card-title">Plumillas Delanteras</h5>
+                          <h5 class="card-title">Multímetro</h5>
                           <p class="card-text">
-                            Compatibles con la mayoria de vehiculos desde año 2005.
+                            Mide voltaje, corriente y resistencia en el sistema eléctrico del auto.
                           </p>
                           <p class="card-text text-muted">
-                            Precio: <strong>$25000</strong>
+                            Precio: <strong>$83.000</strong>
                           </p>
                         </div>
                       </div>
@@ -139,41 +194,25 @@
 
 
 <!-- FOOTER -->
-    <div class="bg-dark">
-        <footer class="py-3 my-4">
-          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Inicio</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Todos</a></li>
-            <li class="nav-item"><a href="./templates/categorias/carreras.html" class="nav-link px-2 text-light">Carreras</a></li>
-            <li class="nav-item"><a href="./templates/categorias/deportes.html" class="nav-link px-2 text-light">Deportes</a></li>
-            <li class="nav-item"><a href="./templates/categorias/estrategia.html" class="nav-link px-2 text-light">Estrategia</a></li>
-            <li class="nav-item"><a href="./templates/categorias/guerra.html" class="nav-link px-2 text-light">Guerra</a></li>
-            <li class="nav-item"><a href="./templates/categorias/zombies.html" class="nav-link px-2 text-light">Zombies</a></li>
+<div class="">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="../../index.html" class="nav-link px-2 text-light">Inicio</a></li>
+      <li class="nav-item"><a href="..//categorias/herramientas.html" class="nav-link px-2 text-light">Herramientas</a></li>
+      <li class="nav-item"><a href="../../templates/categorias/accesorios.html" class="nav-link px-2 text-light">Accesorios</a></li>
+      <li class="nav-item"><a href="../../templates/categorias/baterias.html" class="nav-link px-2 text-light">Baterías</a></li>
+      <li class="nav-item"><a href="../../templates/categorias/electricidad-iluminacion.html" class="nav-link px-2 text-light">Iluminación y electricidad</a></li>
+      <li class="nav-item"><a href="../../templates/categorias/lubricantes.html" class="nav-link px-2 text-light">Lubricantes</a></li>
+      <li class="nav-item"><a href="../../templates/categorias/neumaticos.html" class="nav-link px-2 text-light">Neumáticos</a></li>
 
-          </ul>
-          <p class="text-center text-light">©Derechos resrvados Grupo 2, Duoc UC 2025 , Analista Progamador</p>
-        </footer>
-      </div>
+    </ul>
+    <p class="text-center text-light">©Derechos resrvados Grupo 2, Duoc UC 2025 , Analista Progamador</p>
+  </footer>
+</div>
 </body>
 
 <script src="./static/js/jquery-3.7.1.min.js"></script>
 
 
-<!-- MODO JAVASCRIPT EJEMPLO  
-
-  const form = document.getElementById('formulario')
-  const nombre = document.getElementById('nombre')
-
-  form.addEventListener('submit', function(event){
-    event.preventDefault();
-
-    if(nombre.value === '') {
-      console.log('Nombre viene vacio')
-
-    }
-
-
-  })
-</script> -->
 
 </html>
