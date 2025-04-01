@@ -1,19 +1,44 @@
-<!DOCTYPE html>
+ <!-- SECCION PRIMER PRODUCTO -->
+ <div class="mx-auto py-1 my-5">   
+    <div>
+        <div class="card w-75 mx-auto" >
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://img.freepik.com/fotos-premium/bateria-recargable-negra-nueva-75-amperios-hora_136863-7959.jpg?ga=GA1.1.725468195.1742002310&semt=ais_hybrid">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Batería 55amp</h5>
+                  <p class="card-text">
+                    Batería de vehículos universal de 55amp compatible con motores de cilindrada de 1.2 a 2.0, de acuerdo a las especificaciones técnicas descritas en el manual de su vehículo.
+                  </p>
+                  <p class="card-text text-muted">
+                    Precio: <strong>$60.000</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</div>
+
+
+
 <div class="mx-auto py-1 my-5">   
     <div>
         <div class="card w-75 mx-auto" >
             <div class="row g-0">
               <div class="col-md-4">
-                <img src="https://www.lubricentrojm.cl/wp-content/uploads/2018/10/157901.jpg" class="img-fluid rounded-start">
+                <img src="https://img.freepik.com/fotos-premium/tecnico-automovil-reemplaza-bateria-automovil-muerta-condiciones-invernales_341862-14116.jpg?ga=GA1.1.725468195.1742002310&semt=ais_hybrid">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Liquido de Frenos</h5>
+                  <h5 class="card-title">Batería 70amp</h5>
                   <p class="card-text">
-                    Liquido de Frenos universal, compatible con todos los vehículos que requieren especificación DOT3.
+                    Batería de vehículos universal de 70amp compatible con motores de cilindrada de 2.0 a 2.5, de acuerdo a las especificaciones técnicas descritas en el manual de su vehículo.
                   </p>
                   <p class="card-text text-muted">
-                    Precio: <strong>$5.000</strong>
+                    Precio: <strong>$75.000</strong>
                   </p>
                 </div>
               </div>
@@ -27,16 +52,16 @@
         <div class="card w-75 mx-auto" >
             <div class="row g-0">
               <div class="col-md-4">
-                <img src="https://img.freepik.com/fotos-premium/seccion-media-hombre-vertiendo-liquido-refrigeracion-coche_1048944-4199171.jpg?w=1380">
+                <img src="https://img.freepik.com/foto-gratis/hombre-reparacion-haciendo-servicio-coche_1303-26864.jpg?ga=GA1.1.725468195.1742002310&semt=ais_hybrid">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Liquido Refrigerante Cooland</h5>
+                  <h5 class="card-title">Batería 90amp</h5>
                   <p class="card-text">
-                    Liquido refrigerante de alta calidad, resiste temperaturas dessde -10°c hasta 110°c, compatible con todo tipo de vehículos.
+                    Batería de vehículos universal de 90amp compatible con motores de cilindrada de 2.7 a 3.0, de acuerdo a las especificaciones técnicas descritas en el manual de su vehículo.
                   </p>
                   <p class="card-text text-muted">
-                    Precio: <strong>$6.990</strong>
+                    Precio: <strong>$95.000</strong>
                   </p>
                 </div>
               </div>
@@ -44,4 +69,50 @@
           </div>
     </div>
 </div>
-</html>
+
+
+
+
+
+</section>
+
+
+
+
+<!-- FOOTER -->
+<div class="bg-dark">
+<footer class="py-3 my-4">
+  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Inicio</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Todos</a></li>
+    <li class="nav-item"><a href="./templates/categorias/carreras.html" class="nav-link px-2 text-light">Carreras</a></li>
+    <li class="nav-item"><a href="./templates/categorias/deportes.html" class="nav-link px-2 text-light">Deportes</a></li>
+    <li class="nav-item"><a href="./templates/categorias/estrategia.html" class="nav-link px-2 text-light">Estrategia</a></li>
+    <li class="nav-item"><a href="./templates/categorias/guerra.html" class="nav-link px-2 text-light">Guerra</a></li>
+    <li class="nav-item"><a href="./templates/categorias/zombies.html" class="nav-link px-2 text-light">Zombies</a></li>
+
+  </ul>
+  <p class="text-center text-light">©Derechos resrvados Grupo 2, Duoc UC 2025 , Analista Progamador</p>
+</footer>
+</div>
+</body>
+
+<script src="./static/js/jquery-3.7.1.min.js"></script>
+
+
+<!-- MODO JAVASCRIPT EJEMPLO  
+
+const form = document.getElementById('formulario')
+const nombre = document.getElementById('nombre')
+
+form.addEventListener('submit', function(event){
+event.preventDefault();
+
+if(nombre.value === '') {
+console.log('Nombre viene vacio')
+
+}
+
+
+})
+</script> -->
